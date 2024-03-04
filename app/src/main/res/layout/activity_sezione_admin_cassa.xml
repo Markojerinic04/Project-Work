@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC682"
+    tools:context=".SezioneAdminCassa">
+
+    <TextView
+        android:id="@+id/LabelMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CATALOGO"
+        android:textStyle="bold"
+        android:textColor="#8F2020"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/LabelSala1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SALA 1"
+        android:textColor="#8F2020"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+    <TextView
+        android:id="@+id/LabelSala2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SALA 2"
+        android:textColor="#8F2020"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+    <TextView
+        android:id="@+id/LabelSala3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SALA 3"
+        android:textColor="#8F2020"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="239dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+    <Button
+        android:id="@+id/Tavolo1"
+        android:layout_width="107dp"
+        android:layout_height="82dp"
+        android:background="#8F2020"
+        android:text="TAVOLO 1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.251"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/Tavolo2"
+        android:layout_width="107dp"
+        android:layout_height="82dp"
+        android:background="#8F2020"
+        android:text="TAVOLO 2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.251"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/Tavolo3"
+        android:layout_width="107dp"
+        android:layout_height="82dp"
+        android:background="#8F2020"
+        android:text="TAVOLO 3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.759"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.251"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/Tavolo4"
+        android:layout_width="107dp"
+        android:layout_height="82dp"
+        android:background="#8F2020"
+        android:text="TAVOLO 4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.377"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/Tavolo5"
+        android:layout_width="107dp"
+        android:layout_height="82dp"
+        android:background="#8F2020"
+        android:text="TAVOLO 5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.377"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/Tavolo6"
+        android:layout_width="107dp"
+        android:layout_height="82dp"
+        android:background="#8F2020"
+        android:text="TAVOLO 6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.759"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.377"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/Tavolo7"
+        android:layout_width="107dp"
+        android:layout_height="82dp"
+        android:background="#8F2020"
+        android:text="TAVOLO 7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.503"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/Tavolo8"
+        android:layout_width="107dp"
+        android:layout_height="82dp"
+        android:background="#8F2020"
+        android:text="TAVOLO 8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.503"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/Tavolo9"
+        android:layout_width="107dp"
+        android:layout_height="82dp"
+        android:background="#8F2020"
+        android:text="TAVOLO 9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.759"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.503"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/LabelModificaScontrino"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MODIFICA SCONTRINO"
+        android:textStyle="bold"
+        android:textColor="#8F2020"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="431dp" />
+
+    <Button
+        android:id="@+id/ContoRomana"
+        android:layout_width="123dp"
+        android:layout_height="84dp"
+        android:background="#8F2020"
+        android:text="CONTO ALLA ROMANA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/ContiSeparati"
+        android:layout_width="123dp"
+        android:layout_height="84dp"
+        android:background="#8F2020"
+        android:text="CONTI SEPARATI"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/Totale"
+        android:layout_width="123dp"
+        android:layout_height="84dp"
+        android:background="#8F2020"
+        android:text="TOTALE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.906"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="204dp"
+        android:layout_height="97dp"
+        app:srcCompat="@drawable/screenshot_2024_02_15_alle_08_51_27"
+        tools:layout_editor_absoluteX="220dp"
+        tools:layout_editor_absoluteY="-14dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

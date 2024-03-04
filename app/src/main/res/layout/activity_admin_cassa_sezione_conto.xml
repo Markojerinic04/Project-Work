@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC682"
+    tools:context=".AdminCassaSezioneConto">
+
+    <TextView
+        android:id="@+id/LabelCatalogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CATALOGO"
+        android:textStyle="bold"
+        android:textColor="#8F2020"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/labelResto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESTO"
+        android:textColor="#8F2020"
+        android:textSize="22sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <TextView
+        android:id="@+id/labelMoneta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MONETA"
+        android:textSize="22sp"
+        android:textColor="#8F2020"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="122dp" />
+
+    <TextView
+        android:id="@+id/labelTot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TOTALE"
+        android:textColor="#8F2020"
+        android:textSize="22sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <TextView
+        android:id="@+id/LabelSelezionePagamento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELEZIONA METODI PAGAMENTO"
+        android:textStyle="bold"
+        android:textColor="#8F2020"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="382dp" />
+
+
+    <Button
+        android:id="@+id/BtnCash"
+        android:layout_width="147dp"
+        android:layout_height="70dp"
+        android:background="#8F2020"
+        android:text="CASH"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.739"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/BtnBancomat"
+        android:layout_width="141dp"
+        android:layout_height="73dp"
+        android:background="#8F2020"
+        android:text="BANCOMAT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.618"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.741"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/BtnSatisPay"
+        android:layout_width="149dp"
+        android:layout_height="69dp"
+        android:background="#8F2020"
+        android:text="SATISPAY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.864"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="174dp"
+        android:layout_height="88dp"
+        app:srcCompat="@drawable/screenshot_2024_02_15_alle_08_51_27"
+        tools:layout_editor_absoluteX="242dp"
+        tools:layout_editor_absoluteY="-3dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

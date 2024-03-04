@@ -7,53 +7,88 @@
     android:background="#FFC682"
     tools:context=".MainActivity" >
 
+
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="143dp"
-        android:layout_height="81dp"
+        android:layout_width="184dp"
+        android:layout_height="99dp"
         app:layout_constraintBottom_toTopOf="@+id/supabutton"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.138"
-        app:srcCompat="@drawable/screenshot_2024_02_15_alle_08_51_27" />
+        app:layout_constraintVertical_bias="0.172"
+        app:srcCompat="@drawable/screenshot_2024_02_15_alle_08_51_27"
+        tools:ignore="UnknownId" />
 
     <TextView
         android:id="@+id/descriptionTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="USERNAME"
+        android:textColor="#8F2020"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.0" />
-
+        app:layout_constraintVertical_bias="0.233" />
 
     <EditText
         android:id="@+id/usernameEditText"
         android:layout_width="265dp"
         android:layout_height="49dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="188dp"
         android:layout_marginEnd="16dp"
         android:hint="Inserire username"
         android:inputType="text"
         android:paddingStart="8dp"
         android:paddingEnd="8dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintHorizontal_bias="0.561"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
-    <Button
-        android:id="@+id/supabutton"
+    <TextView
+        android:id="@+id/descriptionTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="I'm a button"
+        android:text="PASSWORD"
+        android:textColor="#8F2020"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.518"
+        tools:ignore="DuplicateIds" />
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="265dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="332dp"
+        android:layout_marginEnd="16dp"
+        android:hint="Inserire password"
+        android:inputType="textPassword"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.561"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:ignore="DuplicateIds" />
+
+    <Button
+        android:id="@+id/second_activity_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#8F2020"
+        android:text="SUBMIT!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.865" />
+        app:layout_constraintVertical_bias="0.865"
+        tools:ignore="TextContrastCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>

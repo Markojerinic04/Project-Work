@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC682"
+    tools:context=".MenuSezioneClient">
+
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="167dp"
+        android:layout_height="128dp"
+        app:srcCompat="@drawable/screenshot_2024_02_15_alle_08_51_27"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="-23dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/LabelBenvenuto"
+        android:layout_width="199dp"
+        android:layout_height="58dp"
+        android:text="BENVENUTO"
+        android:textColor="#8F2020"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+
+    <TextView
+        android:id="@+id/LabelIntro"
+        android:layout_width="236dp"
+        android:layout_height="87dp"
+        android:text="DAI UN'OCCHIATA AL NOSTRO MENU!"
+        android:textColor="#8F2020"
+        android:textSize="22sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+
+    <CheckBox
+        android:id="@+id/checkBoxNigiri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="180dp"
+        android:minHeight="48dp"
+        android:text="Nigiri (2 pezzi)"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/NumeroPiattiDiNigiri"
+        android:layout_width="265dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="16dp"
+        android:hint="Numero di piatti: "
+        android:inputType="number"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.276"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteY="228dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxAssortimento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="276dp"
+        android:minHeight="48dp"
+        android:text="Nigiri assortiti (salmone, tonno, branzino, gambero || 20 pezzi)"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/NumeroPiattiDiNigiri"
+        android:layout_width="265dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="16dp"
+        android:hint="Numero di piatti: "
+        android:inputType="number"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.276"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteY="324dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxUramaki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="372dp"
+        android:minHeight="48dp"
+        android:text="Uramaki (8 pezzi)"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/NumeroPiattiDiUramaki"
+        android:layout_width="265dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="16dp"
+        android:hint="Numero di piatti: "
+        android:inputType="number"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.276"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteY="420dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxSpaghettiSoia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="468dp"
+        android:minHeight="48dp"
+        android:text="Spaghetti di soia"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/NumeroPiattiSpaghetti"
+        android:layout_width="265dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="16dp"
+        android:hint="Numero di piatti: "
+        android:inputType="number"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.276"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteY="516dp" />
+
+    <Button
+        android:id="@+id/BtnOrdina"
+        android:layout_width="119dp"
+        android:layout_height="64dp"
+        android:background="#8F2020"
+        android:text="ORDINA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.866"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.871"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/BtnPrenota"
+        android:layout_width="108dp"
+        android:layout_height="64dp"
+        android:background="#8F2020"
+        android:text="PRENOTA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.438"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.871"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/BtnAsporto"
+        android:layout_width="102dp"
+        android:layout_height="66dp"
+        android:background="#8F2020"
+        android:text="ASPORTO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.869"
+        tools:ignore="TextContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
