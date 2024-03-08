@@ -113,6 +113,21 @@
         android:layout_height="88dp"
         app:srcCompat="@drawable/screenshot_2024_02_15_alle_08_51_27"
         tools:layout_editor_absoluteX="242dp"
-        tools:layout_editor_absoluteY="-3dp" />
+        tools:layout_editor_absoluteY="-3dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/Indietro"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:background="#8F2020"
+        android:text="INDIETRO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.038"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976"
+        tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
